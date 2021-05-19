@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.example.learn1.dao.TokenDao">
+    <insert id="addToken" parameterType="com.example.learn1.modle.Token">
+        INSERT INTO token (id,userId,buildTime,token) VALUES (#{id},#{userId},#{buildTime},#{token});
+    </insert>
+
+    <update id="updateToken" parameterType="com.example.learn1.modle.Token">
+        update token set userId=#{userId},buildTime=#{buildTime},token=#{token} where id=#{id};
+    </update>
+
+    <select id="findTokenByUserId" parameterType="long" resultType="com.example.learn1.modle.Token">
+        SELECT * FROM token WHERE userId =#{0};
+    </select>
+
+    <select id="findTokenByToken" parameterType="string" resultType="com.example.learn1.modle.Token">
+        SELECT * FROM token WHERE userId =#{0};
+    </select>
+</mapper>

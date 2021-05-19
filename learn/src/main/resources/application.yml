@@ -1,0 +1,12 @@
+server:
+  port: 6666
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://39.99.225.102:3306/bloginfo?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone = GMT
+    username: root
+    password: ja2406357659.
+
+mybatis:
+  mapper-locations: classpath:/mapper/*.xml
+  typeAliasesPackage: com.learn.demo.POJO
