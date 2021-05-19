@@ -1,41 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
-  <reporter-output>
-    <line>
-      <![CDATA[start]]>
-    </line>
-    <line>
-      <![CDATA[CASE1BUG保存成功]]>
-    </line>
-    <line>
-      <![CDATA[CASE2BUG未支付订单超时时间的值必须不大于200000000。]]>
-    </line>
-    <line>
-      <![CDATA[end]]>
-    </line>
-  </reporter-output>
-  <suite started-at="2021-05-17T02:20:12Z" name="All Test Suite" finished-at="2021-05-17T02:20:23Z" duration-ms="10295">
-    <groups>
-    </groups>
-    <test started-at="2021-05-17T02:20:12Z" name="D:/gitClone/untitled/src/main/java/pageTests/MallConfigTest.java" finished-at="2021-05-17T02:20:23Z" duration-ms="10295">
-      <class name="pageTests.MallConfigTest">
-        <test-method signature="MallCfTest()[pri:0, instance:pageTests.MallConfigTest@16f7c8c1]" started-at="2021-05-17T02:20:12Z" name="MallCfTest" finished-at="2021-05-17T02:20:23Z" duration-ms="10275" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[start]]>
-            </line>
-            <line>
-              <![CDATA[CASE1BUG保存成功]]>
-            </line>
-            <line>
-              <![CDATA[CASE2BUG未支付订单超时时间的值必须不大于200000000。]]>
-            </line>
-            <line>
-              <![CDATA[end]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- MallCfTest -->
-      </class> <!-- pageTests.MallConfigTest -->
-    </test> <!-- D:/gitClone/untitled/src/main/java/pageTests/MallConfigTest.java -->
-  </suite> <!-- All Test Suite -->
-</testng-results>
